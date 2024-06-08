@@ -15,12 +15,22 @@ export const Primary: StoryObj<typeof Button> = {
     title: 'Button',
     variant: "primary",
     onClick: fn()
-  }
+  },
+
 }
 
 export const Secondary: StoryObj<typeof Button> = {
   args: {
     title: 'Button',
     variant: "secondary"
+  }
+}
+
+export const OutlineButton: StoryObj<typeof Button> = {
+  args: {
+    title: 'Outline Button',
+    variant: "outline",
+    size: 'large'
+
   }
 }

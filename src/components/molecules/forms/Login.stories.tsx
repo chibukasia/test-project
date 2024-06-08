@@ -23,7 +23,7 @@ export const LoginFormStory: StoryObj<typeof LoginForm> = {
 
     await userEvent.click(canvas.getByRole('button'));
 
-    await expect(canvas.getByPlaceholderText('Enter email')).toHaveValue('John@Doe.com');
+    await expect(canvas.getByPlaceholderText('Enter email')).toHaveValue('John@Doeui.com');
     await expect(canvas.getByDisplayValue('1234')).toBeInTheDocument()
   }
 }

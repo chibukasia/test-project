@@ -11,6 +11,7 @@ const preview: Preview = {
     backgrounds: {
       default: 'light',
     },
+    
   },
 };
 
